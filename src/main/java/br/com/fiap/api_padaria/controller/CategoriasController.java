@@ -1,4 +1,4 @@
-package br.com.fiap.api_padaria.Controllers;
+package br.com.fiap.api_padaria.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
