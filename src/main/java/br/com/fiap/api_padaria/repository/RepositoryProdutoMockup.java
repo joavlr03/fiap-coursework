@@ -15,8 +15,8 @@ private List<ProdutoPadaria> produtos = new ArrayList<>();
     private long ID = 1L;
     
     public RepositoryProdutoMockup() {        
-        produtos.add(new ProdutoPadaria(ID++, "Maça", BigDecimal.valueOf(10.50)));  
-        produtos.add(new ProdutoPadaria(ID++, "Uva", BigDecimal.valueOf(15.23)));            
+        produtos.add(new ProdutoPadaria(ID++, "Pão na Chapa", BigDecimal.valueOf(7.50)));  
+        produtos.add(new ProdutoPadaria(ID++, "Café", BigDecimal.valueOf(2.25)));            
     }
 
     public List<ProdutoPadaria> findAll() {
